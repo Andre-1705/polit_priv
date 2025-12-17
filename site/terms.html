@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Términos de Servicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Social Metrics Automation</a>
+      <nav>
+        <a href="privacy.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="terms.html">Términos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="content">Cargando…</div>
+  </main>
+
+  <div id="cookie-banner" class="cookie-banner" hidden>
+    <p>
+      Usamos cookies necesarias y, con tu consentimiento, de rendimiento, funcionalidad y marketing.
+      Consulta la <a href="cookies.html">Política de Cookies</a> y la
+      <a href="privacy.html">Política de Privacidad</a>.
+    </p>
+    <div class="cookie-actions">
+      <button id="only-necessary">Solo necesarias</button>
+      <button id="accept-all">Aceptar todo</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="main.js"></script>
+  <script>loadMarkdown('content/TERMS_OF_SERVICE.md');</script>
+</body>
+</html>
