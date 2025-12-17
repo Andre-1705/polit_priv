@@ -1,0 +1,25 @@
+{
+  "name": "social-metrics-privacy-policies",
+  "version": "1.0.0",
+  "description": "Políticas de privacidad para Social Metrics Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "echo \"Build completed\"",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "privacy-policy",
+    "terms-of-service",
+    "legal",
+    "gdpr",
+    "ccpa",
+    "lgpd"
+  ],
+  "author": "Social Metrics Automation",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/polit_priv"
+  }
+}
